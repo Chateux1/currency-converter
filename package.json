@@ -1,0 +1,30 @@
+{
+	"name": "currency-converter",
+	"version": "1.0.0",
+	"description": "currency converter",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"author": "MS",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.20.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mysql": "^2.18.1",
+		"xml2js": "^0.4.23"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
+	"prettier": {
+		"useTabs": true,
+		"tabWidth": 4,
+		"semi": true,
+		"singleQuote": true,
+		"bracketSpacing": true,
+		"printWidth": 120
+	}
+}
